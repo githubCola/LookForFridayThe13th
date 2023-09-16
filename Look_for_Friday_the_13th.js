@@ -50,7 +50,7 @@ function display() {
         if (targetDateList.length == 0) {
             result = '本年没有Friday the 13th';
         } else {
-            result = "本年的Friday the 13th有 :\n";
+            result = `${String(num)}年的Friday the 13th有 :\n`;
             for (let d of targetDateList) {
                 result += `${d[0]}年${d[1]}月${d[2]}日\n`;
             }
